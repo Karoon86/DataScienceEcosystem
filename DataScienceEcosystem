@@ -1,0 +1,87 @@
+My Nootbook
+Data Science Tools and Ecosystem
+Introduction:
+In this notebook, Data Science Tools and Ecosystem are summarized.
+
+Objectives:
+In this notebook, we will:
+
+*Data Science Libraries.
+
+*Convert minutes to hours using code.
+
+*Multiplying and adding numbers in Python.
+
+*Data Science Tools.
+
+Data Science Languages:
+Some of the popular languages that Data Scientists use are:
+
+Python, R, SQL, Java, Scala, Matlab, Julia.
+
+Data Science Libraries:
+some of the commonly used data science libraries:
+
+Python: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow, PyTorch
+
+R: tidyverse (including ggplot2, dplyr, etc.), caret.
+
+General: Apache Spark, Apache Hadoop, Apache Kafka, Tableau, Power BI
+
+Data Science Tools:
+[ ]
+from tabulate import tabulate
+data = [['Tool', 'Description'],
+       ['Jupyter Notebook', 'Interactive web-based environment for data analysis and visualization'],
+       ['RStudio', 'Integrated development environment (IDE) for R programming language'],
+       ['Apache Spark', 'Unified analytics engine for large-scale data processing'],
+       ['Hadoop', 'Open-source framework for distributed storage and processing of large datasets'],
+       ['Tableau', 'Data visualization and business intelligence software'],
+       ]
+
+print(tabulate(data, headers='firstrow', tablefmt="grid"))
++------------------+--------------------------------------------------------------------------------+
+| Tool             | Description                                                                    |
++==================+================================================================================+
+| Jupyter Notebook | Interactive web-based environment for data analysis and visualization          |
++------------------+--------------------------------------------------------------------------------+
+| RStudio          | Integrated development environment (IDE) for R programming language            |
++------------------+--------------------------------------------------------------------------------+
+| Apache Spark     | Unified analytics engine for large-scale data processing                       |
++------------------+--------------------------------------------------------------------------------+
+| Hadoop           | Open-source framework for distributed storage and processing of large datasets |
++------------------+--------------------------------------------------------------------------------+
+| Tableau          | Data visualization and business intelligence software                          |
++------------------+--------------------------------------------------------------------------------+
+Arithmetic Expression Examples:
+we will explore some basic arithmetic expressions and their results. Arithmetic expressions involve the use of numerical values and mathematical operators to perform calculations.
+
+For example: Addition, Subtraction, Multiplication, Division,...
+
+multiplying and adding numbers in Python:
+[ ]
+# Multiplication
+a = 5
+b = 7
+c = a * b
+print(c)
+# Addition
+x = 10
+y = 15
+z= x + y
+print(z)
+35
+25
+convert minutes to hours
+[ ]
+
+#  This will convert 200 minutes to hours by diving by 60
+minutes = 200
+hours = minutes // 60
+remaining_minutes = minutes % 60
+
+print(f"{minutes} minutes is equal to {hours} hours and {remaining_minutes} minutes.")
+200 minutes is equal to 3 hours and 20 minutes.
+Author:
+This notebook was created by Maya.
+
